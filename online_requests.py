@@ -8,3 +8,4 @@ def get_actual_currencies():
     response = requests.get(URL + API_KEY)
 
     return response.json()
+    return result['data']
